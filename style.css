@@ -1,43 +1,39 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
-    
 }
 
-
-#banner{
+#banner {
     width: 100%;
 }
 
-.titulo-principal{
+.titulo-principal {
     text-transform: uppercase;
     text-align: center;
     color: rgb(63, 3, 3);
     background-color: rgb(222, 184, 135);
     padding: 1px;
-
-
 }
 
-.titulo2{ 
-color: rgb(63, 3, 3);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.principal{
+.titulo2 {
     color: rgb(63, 3, 3);
-background-color: rgb(230, 196, 153);
-padding: 30px;
-margin: 0px;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.beneficios{
+
+.principal {
     color: rgb(63, 3, 3);
-   background-color: rgb(230, 196, 153);
-    margin: 0%;
+    background-color: rgb(230, 196, 153);
+    padding: 30px;
+    margin: 0px;
 }
 
-ul{
+.beneficios {
+    color: rgb(63, 3, 3);
+    background-color: rgb(230, 196, 153);
+    margin: 0px;
+}
+
+ul {
 
     display: inline-block;
     vertical-align: top;
@@ -47,10 +43,12 @@ ul{
     line-height: 1.5;
 }
 
-.itens{ /*ITENS DA LISTA - CADA BOLHA*/
+.itens {
+    /*ITENS DA LISTA - CADA BOLHA*/
     font-style: italic;
 }
 
-.imagembeneficios{ /*IMAGEM DO HOMEM BARBUDO*/
+.imagembeneficios {
+    /*IMAGEM DO HOMEM BARBUDO*/
     width: 45%;
 }
